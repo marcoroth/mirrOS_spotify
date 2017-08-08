@@ -2,8 +2,9 @@
 
 	require "../../../config/glancrConfig.php";
 
+	$client_id = getConfigValue("spotify_client_id");
+	$client_secret = getConfigValue("spotify_client_secret");
 	$refresh_token = getConfigValue("spotify_refresh_token");
-	$access_token = getConfigValue("spotify_access_token");
 
 	$url = "https://accounts.spotify.com/api/token";
 
@@ -18,6 +19,7 @@
 	));
 
 	$response = curl_exec($curl);
+
 	curl_close($curl);
 	$json = json_decode($response, true);
 
@@ -32,7 +34,7 @@
 		setConfigValue("spotify_expires_at", $expires_at);
 		echo '{ "success": true }';
 	} else {
-		echo '{ "success": false }';
+		echo $response;
 	}
 
 ?>
