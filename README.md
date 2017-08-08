@@ -1,6 +1,6 @@
 # mirrOS Spotify Modul
 
-Das Spotify-Modul zeigt den zurzeit auf deinem Gerät spielenden Track ins glancr mirrOS.
+Das Spotify-Modul zeigt den zurzeit auf deinem Gerät spielenden Track im glancr mirrOS.
 
 
 ## Voraussetzungen
