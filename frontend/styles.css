@@ -47,14 +47,14 @@
 
 #spotify_frame {
 	background: white;
-	width: 230px;
-	height: 260px;
+	width: 220px;
+	height: 250px;
 	color: black;
 }
 
 #spotify_cover {
-	width: 220px;
-	height: 220px;
+	width: 210px;
+	height: 210px;
 }
 
 #spotify_table tr td:nth-child(2) {
@@ -72,10 +72,8 @@
 	font-size: 12pt;
 	margin-left: 6px;
 	display: inline-block;
-	text-overflow: ellipsis;
 	width: 170px !important;
 	height: 25px;
-	overflow: hidden;
 }
 
 #spotify_device i {
