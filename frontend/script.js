@@ -89,6 +89,10 @@ function reloadSpotify() {
 			$("#spotify_table #second").text("");
 			$("#spotify_table #duration").text("");
 			$("#spotify_table #status").text("");
+			
+			$("#spotify_table #progress").hide();
+			$("#spotify_table #time").hide();
+			$("#spotify_table i").hide();
 		}
 	});
 
