@@ -1,0 +1,150 @@
+# mirr.OS Spotify Module v1.1.4
+# Copyright (C) 2017
+# Marco Roth <mr@glancr.de>, 2017
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mirr.OS Spotify Module V1.0.0\n"
+"POT-Creation-Date: 2016-08-08 10:02+0200\n"
+"PO-Revision-Date: 2017-08-08 10:37+0200\n"
+"Last-Translator: Marco Roth <marco.roth@intergga.ch>\n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "spotify_title"
+msgstr "Spotify"
+
+msgid "spotify_description"
+msgstr "This modules show you the current playing track on Spotify"
+
+msgid "spotify_how_to_use"
+msgstr "To use the Spotify module, you need an app in your Spotify account."
+
+msgid "spotify_create_app"
+msgstr "You can create here a Spotify application"
+
+msgid "spotify_tutorial_text"
+msgstr "You can find here a tutorial on how to create a Spotify application"
+
+msgid "spotify_tutorial_create_app"
+msgstr "Tutorial: How to create a Spotify-App (German only)"
+
+msgid "spotify_client_id"
+msgstr "Spotify Client ID"
+
+msgid "spotify_client_secret"
+msgstr "Spotify Client Secret"
+
+msgid "spotify_redirect_uri"
+msgstr "Spotify Redirect URI"
+
+msgid "spotify_reset_config"
+msgstr "Reset Config"
+
+msgid "spotify_reset_config_message"
+msgstr "Are you sure you want to reset your Spotify config?"
+
+msgid "spotify_next_step"
+msgstr "next step"
+
+msgid "spotify_login_with_spotify"
+msgstr "Login with Spotify"
+
+msgid "spotify_modul_configured"
+msgstr "Your Spotify module is configured. There is nothing to see here."
+
+msgid "spotify_save"
+msgstr "Save and continue"
+
+msgid "spotify_application_name"
+msgstr "Spotify Application Name"
+
+msgid "spotify_application_description"
+msgstr "Spotify Application Description"
+
+msgid "spotify_copy_values"
+msgstr "Copy the values from below and paste it in the fields on the Spotify-Website"
+
+#~ msgid "spotify_already_have_app"
+#~ msgstr "Do you already have an app? Please insert your data here:"
+
+#~ msgid "spotify_email"
+#~ msgstr "eMail"
+
+#~ msgid "spotify_use_email"
+#~ msgstr "Use eMail-adress from mirr.OS"
+
+#~ msgid "spotify_password"
+#~ msgstr "Spotify password"
+
+#~ msgid "spotify_no_public_stations"
+#~ msgstr "you don’t have marked a station as your favorite on the Spotify WeatherMap"
+
+#~ msgid "spotify_own_stations"
+#~ msgstr "own stations"
+
+#~ msgid "spotify_no_own_stations"
+#~ msgstr "you have no own stations"
+
+#~ msgid "spotify_select_NAMain_icons"
+#~ msgstr "Select icon for base station"
+
+#~ msgid "spotify_select_NAModule2_icons"
+#~ msgstr "Select icon for wind gauge"
+
+#~ msgid "spotify_select_NAModule3_icons"
+#~ msgstr "Select icon for rain gauge"
+
+#~ msgid "spotify_select_NAModule1_icons"
+#~ msgstr "Select icon for outdoor module"
+
+#~ msgid "spotify_select_NAModule4_icons"
+#~ msgstr "Select icon for indoor module"
+
+#~ msgid "spotify_minute"
+#~ msgstr "minute"
+
+#~ msgid "spotify_minutes"
+#~ msgstr "minutes"
+
+#~ msgid "spotify_compass_points"
+#~ msgstr "'N', 'NNE', 'NE', 'ENE', 'E', 'ESE', 'SE', 'SSE', 'S', 'SSW', 'SW', 'WSW', 'W', 'WNW', 'NW', 'NNW'"
+
+#~ msgid "spotify_tutorial_add_favorites"
+#~ msgstr "spotify_tutorial_add_favorites"
+
+#~ msgid "spotify_weather_map_info"
+#~ msgstr "spotify_weather_map_info"
+
+#~ msgid "spotify_station_not_found"
+#~ msgstr "Error: The station with the specified MAC address was not found. Make sure your station is in the favorites or select another station in the settings section. <br> <br> However, the following stations were found:<br>"
+
+#~ msgid "spotify_configure_in_settings"
+#~ msgstr "To use the Spotify module, you must configure it in the settings."
+
+#~ msgid "spotify_NAMain"
+#~ msgstr "Base-Station"
+
+#~ msgid "spotify_NAModule1"
+#~ msgstr "Outdoor-Module"
+
+#~ msgid "spotify_NAModule2"
+#~ msgstr "Wind-Gauge"
+
+#~ msgid "spotify_NAModule3"
+#~ msgstr "Rain-Gauge"
+
+#~ msgid "spotify_NAModule4"
+#~ msgstr "Indoor-Module"
+
+#~ msgid "spotify_check_config"
+#~ msgstr "Error: It look likes some settings are incorrect. Please double check your configurations in the backend."
+
+#~ msgid "save"
+#~ msgstr "save"

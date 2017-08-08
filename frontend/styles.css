@@ -1,0 +1,127 @@
+#spotify_table {
+	padding-top: 0px;
+}
+
+#spotify_table td {
+	margin: 0px;
+	padding: 0px;
+	padding-bottom: 2px;
+	padding-right: 20px;
+	vertical-align: top;
+}
+
+#spotify_table .progress {
+	height: 5px;
+	position: relative;
+	background: black;
+	border: 1px solid white;
+	margin-top: 3px;
+}
+
+#spotify_table .progress span {
+  display: inline-block;
+  height: 5px;
+  background-color: white;
+  position: relative;
+	top: -14px;
+}
+
+#spotify_image img {
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+#spotify_image #name {
+	font-weight: bold;
+}
+
+#spotify_table #timer {
+	display:inline-block ;
+	min-width: 50px;
+}
+
+#spotify_table #duration {
+	margin-left: 7px;
+	align: right;
+}
+
+#spotify_frame {
+	background: white;
+	width: 230px;
+	height: 260px;
+	color: black;
+}
+
+#spotify_cover {
+	width: 220px;
+	height: 220px;
+}
+
+#spotify_table tr td:nth-child(2) {
+	width: 100%;
+}
+
+#music_icon {
+	width: inherit !important;
+}
+
+#spotify_device {
+	font-weight: bold;
+	text-align: left;
+	float: left;
+	font-size: 12pt;
+	margin-left: 6px;
+	display: inline-block;
+	text-overflow: ellipsis;
+	width: 170px !important;
+	height: 25px;
+	overflow: hidden;
+}
+
+#spotify_device i {
+	margin-right: 5px;
+}
+
+#spotify_player_state {
+	font-weight: bold;
+	text-align: right;
+	float: right;
+	font-size: 12pt;
+	margin-right: 6px;
+	display: inline-block;
+}
+
+
+@media all and (max-width: 800px) {
+
+	#spotify_table {
+		font-size: 12pt;
+		 hyphens: auto;
+	}
+
+
+	#spotify_cover {
+		width: 175px;
+		height: 175px;
+	}
+
+	#spotify_frame {
+		background: white;
+		width: 185px;
+		height: 215px;
+		color: black;
+	}
+
+	#spotify_device {
+		width: 130px !important;
+	}
+
+	#spotify_table #timer {
+		min-width: 35px;
+	}
+
+	#spotify_table #duration {
+		margin-left: 3px;
+	}
+
+}

@@ -1,0 +1,72 @@
+# mirr.OS Spotify Module v1.0.0
+# Copyright (C) 2017
+# Marco Roth <mr@glancr.de>, 2017
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mirr.OS Spotify Module V1.0.0\n"
+"POT-Creation-Date: 2016-08-08 10:02+0200\n"
+"PO-Revision-Date: 2017-08-08 11:15+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Last-Translator: Marco Roth <marco.roth@intergga.ch>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: de_DE\n"
+
+msgid "spotify_title"
+msgstr "Spotify"
+
+msgid "spotify_description"
+msgstr "Modul zum Anzeigen des zurzeit spielenden Track auf Spotify"
+
+msgid "spotify_how_to_use"
+msgstr "Um das Spotify-Modul verwenden zu können, benötigst du eine App in deinem Spotify-Account."
+
+msgid "spotify_create_app"
+msgstr "Du kannst deine Spotify-Applikation hier erstellen"
+
+msgid "spotify_tutorial_text"
+msgstr "Hier findest du die Anleitung für das Erstellen einer Spotify-Applikation"
+
+msgid "spotify_tutorial_create_app"
+msgstr "Tutorial: Spotify-App erstellen"
+
+msgid "spotify_client_id"
+msgstr "Client ID der Spotify-App"
+
+msgid "spotify_client_secret"
+msgstr "Client Secret der Spotify-App"
+
+msgid "spotify_redirect_uri"
+msgstr "Redirect URI der Spotify-App"
+
+msgid "spotify_reset_config"
+msgstr "Einstellungen zurücksetzen"
+
+msgid "spotify_reset_config_message"
+msgstr "Bist du sicher, dass du deine Spotify Einstellugnen zurücksetzten möchtest?"
+
+msgid "spotify_next_step"
+msgstr "Nächster Schritt"
+
+msgid "spotify_login_with_spotify"
+msgstr "Mit Spotify anmelden"
+
+msgid "spotify_modul_configured"
+msgstr "Du hast dein Spotify Modul konfiguriert. Leider gibt’s hier nichts mehr einzustellen."
+
+msgid "spotify_save"
+msgstr "Speichern und fortfahren"
+
+msgid "spotify_application_name"
+msgstr "Spotify Application Name"
+
+msgid "spotify_application_description"
+msgstr "Spotify Application Beschreibung"
+
+msgid "spotify_copy_values"
+msgstr "Kopiere die untenstehenden Wert und füge sie auf der Spotify-Seite ein"

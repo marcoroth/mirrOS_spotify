@@ -1,0 +1,16 @@
+#spotify_follow_button {
+	background-color: #2EBD59;
+	border-radius: 500px;
+	color: white;
+	display: inline-block;
+	font-family: Circular, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 1.2px;
+	padding: 7px 35px;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	text-align: center
+	width: 250px;
+	height: 35px;
+}
