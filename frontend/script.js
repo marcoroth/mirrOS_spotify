@@ -11,6 +11,8 @@ function reloadSpotify() {
 	$.getJSON("/modules/spotify/assets/getPlayerState.php", function(data){
 
 		if (data["error"] == null){
+			$("#spotify_cover").attr("style", "");
+			$("#spotify_frame").attr("style", "");
 			if (data["is_playing"] == true ){
 
 				position = data["progress_ms"];
@@ -89,7 +91,10 @@ function reloadSpotify() {
 			$("#spotify_table #second").text("");
 			$("#spotify_table #duration").text("");
 			$("#spotify_table #status").text("");
-			
+
+			$("#spotify_cover").attr("style", "width: 170px; height: 170px;");
+			$("#spotify_frame").attr("style", "width: 180px");
+
 			$("#spotify_table #progress").hide();
 			$("#spotify_table #time").hide();
 			$("#spotify_table i").hide();
