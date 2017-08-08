@@ -13,7 +13,7 @@ Das Spotify-Modul zeigt den zurzeit auf deinem Gerät spielenden Track ins glanc
 
 ## Download
 
-Du kannst dir [hier](https://glancr.de/module/home-automation/spotify/) die neuste Version des Moduls herunterladen. <br>
+Du kannst dir [hier](https://glancr.de/module/unterhaltung/spotify/) die neuste Version des Moduls herunterladen. <br>
 Die Modul-Updates werden direkt via mirrOS-Backend installiert.
 
 
@@ -22,7 +22,7 @@ Die Modul-Updates werden direkt via mirrOS-Backend installiert.
 ![Preview](assets/modulpreviews_spotify.png)
 
 ## Weitere Informationen
-* [Spotify-Modul](https://glancr.de/module/home-automation/spotify/)
+* [Spotify-Modul](https://glancr.de/module/unterhaltung/spotify/)
 * [Glancr](https://glancr.de)
 * [mirrOS](https://glancr.de/#mirr_os)
 
