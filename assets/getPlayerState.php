@@ -3,9 +3,11 @@
 	require "../../../config/glancrConfig.php";
 
 	$expires_at = getConfigValue("spotify_expires_at");
+	$host =  $_SERVER["HTTP_HOST"];
 
-	if (($expires_at-300)-time() > 0){
-		file_get_contents("/modules/spotify/assets/refreshToken.php");
+	if (($expires_at)-time() < 300){
+		echo "something";
+		file_get_contents("http://" . $host . "/modules/spotify/assets/refreshToken.php");
 	}
 
 	$url = "https://api.spotify.com/v1/me/player";
