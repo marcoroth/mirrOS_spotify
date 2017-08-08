@@ -34,11 +34,18 @@
 				$expires_in = $json["expires_in"];
 				$expires_at = time()+$expires_in;
 
-				setConfigValue("spotify_access_token", $access_token);
-				setConfigValue("spotify_refresh_token", $refresh_token);
-				setConfigValue("spotify_expires_at", $expires_at);
+				header("Content-Type: application/json");
 
-				header("Location: /config/");
+				if (strlen($access_token) > 1 && strlen($refresh_token) > 1 && strlen($expires_at) > 1){
+					setConfigValue("spotify_access_token", $access_token);
+					setConfigValue("spotify_refresh_token", $refresh_token);
+					setConfigValue("spotify_expires_at", $expires_at);
+					echo '{ "success": true }';
+					header("Location: /config/");
+				} else {
+					echo '{ "success": false }';
+				}
+
 			}
 	}
 
