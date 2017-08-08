@@ -17,21 +17,21 @@
 	<h4><?php echo _('spotify_how_to_use'); ?></h4><br>
 
 	<h5><?php echo _('spotify_create_app'); ?>:<br>
-	<a class="button" href="https://developer.spotify.com/my-applications/">Spotify App</a> </h5><br>
+	<a class="button" target="_blank" href="https://developer.spotify.com/my-applications/">Spotify App</a> </h5><br>
 
 	<h5><?php echo _('spotify_tutorial_text'); ?>: <br>
-	<a class="button" href="https://glancr.de/tutorials/das-spotify-modul-konfigurieren/"><?php echo _('spotify_tutorial_create_app'); ?></a></h5> <br>
+	<a class="button" target="_blank"  href="https://glancr.de/tutorials/das-spotify-modul-konfigurieren/"><?php echo _('spotify_tutorial_create_app'); ?></a></h5> <br>
 
 	<h5><?php echo _('spotify_copy_values'); ?></h5> <br>
 
 	<h6><?php echo _('spotify_application_name'); ?></h6>
-	<input type="text" id="spotify_application_name" onclick="this.select();" placeholder="<?php echo _('spotify_application_name'); ?>" value="Glancr Smart Mirror" />
+	<input type="text" id="spotify_application_name" onclick="this.select();" onkeyup="this.value = 'Glancr Smart Mirror';" placeholder="<?php echo _('spotify_application_name'); ?>" value="Glancr Smart Mirror" />
 
 	<h6><?php echo _('spotify_application_description'); ?></h6>
-	<input type="text" id="spotify_application_description" onclick="this.select();" placeholder="<?php echo _('spotify_application_description'); ?>" value="Spotify integration for Glancr mirr.OS" />
+	<input type="text" id="spotify_application_description" onclick="this.select();" onkeyup="this.value = 'Spotify integration for Glancr mirr.OS';" placeholder="<?php echo _('spotify_application_description'); ?>" value="Spotify integration for Glancr mirr.OS" />
 
 	<h6><?php echo _('spotify_redirect_uri'); ?></h6>
-	<input type="text" id="spotify_redirect_uri" onclick="this.select();" placeholder="<?php echo _('spotify_redirect_uri'); ?>" value="<?php echo $redirect_uri; ?>" /><br><br>
+	<input type="text" id="spotify_redirect_uri" onclick="this.select();" onkeyup="this.value = '<?php echo $redirect_uri; ?>';" placeholder="<?php echo _('spotify_redirect_uri'); ?>" value="<?php echo $redirect_uri; ?>" /><br><br>
 
 	<div class="button" id="spotify_save_step1" style="width: 100%">
 		<button class="spotify_save_step1--button" href="#">
