@@ -1,13 +1,13 @@
 {
 	"module": {
 		"name": "Spotify",
-		"version": "1.0.0",
+		"version": "1.0.1",
 		"description": "Modul zum Anzeigen des zurzeit spielenden Track auf Spotify",
 		"module_url": "https://glancr.de/module/unterhaltung/spotify/",
-		"download_url": "http://api.glancr.de/update/moduleZips/spotify-1.0.0.zip",
+		"download_url": "http://api.glancr.de/update/moduleZips/spotify-1.0.1.zip",
 		"category": "unterhaltung",
 		"release_date": "2017-08-08",
-		"last_update": "2017-08-08"
+		"last_update": "2017-10-21"
 	},
 	"creator": {
 		"name": "Marco Roth",
