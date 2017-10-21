@@ -69,10 +69,11 @@
 	font-weight: bold;
 	text-align: left;
 	float: left;
-	font-size: 12pt;
+	font-size: 10pt;
 	margin-left: 6px;
+	margin-top: 2px;
 	display: inline-block;
-	width: 170px !important;
+	width: 208px !important;
 	height: 25px;
 }
 
@@ -111,7 +112,7 @@
 	}
 
 	#spotify_device {
-		width: 130px !important;
+		width: 170px !important;
 	}
 
 	#spotify_table #timer {
